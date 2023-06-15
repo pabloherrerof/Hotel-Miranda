@@ -1,0 +1,118 @@
+.room-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.room-card__img--full {
+  position: relative;
+  background-color: #E5E5E5;
+  height: 244px;
+  display: flex;
+  justify-content: center;
+  margin: 0 6.4%;
+}
+
+.room-card__features-bar {
+  position: absolute;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(138, 138, 138, 0.05);
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 1.5rem;
+  justify-content: space-around;
+  top: -1rem;
+  min-width: 256px;
+  min-height: 40px;
+}
+
+.room-card__features-bar--rooms {
+  top: auto;
+  bottom: -20px;
+  z-index: 1;
+}
+
+.room-card__img {
+  position: relative;
+  background-color: #E5E5E5;
+  height: 244px;
+  display: flex;
+  justify-content: center;
+  margin: 0 6.4%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.room-card__img--img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.room-card__info {
+  background-color: #FFFFFF;
+  padding: 1.18rem 1.5rem;
+  position: relative;
+  top: -20px;
+  margin: 0 6.4%;
+}
+
+.rom-card__info--rooms {
+  top: 0;
+  padding-top: 3rem;
+  padding-bottom: 1.75rem;
+}
+
+.room-card__title {
+  margin-bottom: 1rem;
+}
+
+.rom-card__paragraph {
+  margin-bottom: 1rem;
+}
+
+.room-card__price {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.room-card__price--big {
+  font-size: 32px;
+  line-height: 43px;
+}
+
+.room-card__price--small {
+  font-size: 16px;
+  line-height: 17px;
+}
+
+.room-card__price-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+.room-card__slider {
+  position: relative;
+}
+
+.room-card__buttons {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 2%;
+  z-index: 1;
+  top: 100px;
+  max-width: 600px;
+}
+
+.room-card__button--home {
+  max-width: 680px;
+}/*# sourceMappingURL=room-card.css.map */

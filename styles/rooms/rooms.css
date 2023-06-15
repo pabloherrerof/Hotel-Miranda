@@ -1,0 +1,11 @@
+.rooms__container {
+  padding-left: 5.3%;
+  padding-right: 5.3%;
+  padding-top: 3rem;
+  padding-bottom: 3.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=rooms.css.map */
