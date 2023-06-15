@@ -1,0 +1,34 @@
+.page-title{
+    padding-top: 70px;
+    background-color: #333333;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-title__container{
+    margin-top: 4.688rem;
+    padding-left: 5.3%;
+    padding-right: 5.3%;
+}
+
+.page-title__pretitle{
+    margin-bottom: 1rem;
+    line-height: 15px;
+}
+
+.page-title__title{
+    margin-bottom: 2.9rem;
+}
+
+.page-title__index-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.page-title__index{
+    background-color: #FFFFFF;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+}

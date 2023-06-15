@@ -1,0 +1,30 @@
+.intro-video {
+  background: #222222;
+  padding-left: 5.3%;
+  padding-right: 5.3%;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-video__pretitle {
+  margin-bottom: 2rem;
+}
+
+.intro-video__title {
+  margin-bottom: 1rem;
+}
+
+.intro-video__paragraph {
+  max-width: 485px;
+  margin-bottom: 2rem;
+}
+
+.intro-video__video {
+  align-self: center;
+  width: 100%;
+  max-width: 600px;
+  height: 40vh;
+  margin-bottom: 2.25rem;
+}/*# sourceMappingURL=video.css.map */
