@@ -1,0 +1,36 @@
+.fun-facts__container {
+  padding: 3.75rem 5.3%;
+}
+
+.fun-facts__pretitle {
+  margin-bottom: 1.5rem;
+}
+
+.fun-facts__title {
+  margin-bottom: 2.25rem;
+}
+
+.fun-facts__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.fun-facts__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 370px;
+  width: 100%;
+  padding: 1.688rem 1.25rem;
+}
+
+.fun-facts__slider {
+  width: 335px;
+  height: 230.03px;
+  background: #dfdfdf;
+  margin: auto;
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=fun-facts.css.map */
