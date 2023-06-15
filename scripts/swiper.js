@@ -4,6 +4,10 @@ const nextButton = document.querySelector('.room-card__button-next');
 const menuPrevButton = document.querySelector('.menu__button-prev');
 const menuNextButton = document.querySelector('.menu__button-next');
 
+
+const popularRoomsPrev = document.querySelector('.popular-rooms__button-prev');
+const popularRoomsNext = document.querySelector('.popular-rooms__button-next');
+
 const swiper = new Swiper('.swiper--handpicked-rooms', {
    direction: "horizontal",
    loop: true,
@@ -80,6 +84,19 @@ const swiper = new Swiper('.swiper--handpicked-rooms', {
       el: '.swiper-pagination--fun-facts',
       clickable: true,
     },
+ 
+    
+   });
+
+   const swiperPopularRooms = new Swiper('.swiper__popular-rooms', {
+    direction: "horizontal",
+    loop: true,
+    slidesPerView: 1,
+    
+    navigation: {
+     nextEl: popularRoomsNext,
+     prevEl: popularRoomsPrev, 
+   },
  
     
    });

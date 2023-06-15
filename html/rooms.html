@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  />
     <link rel="stylesheet" href="../styles/styles.css" />
 
     <title>Rooms</title>
@@ -77,397 +80,936 @@
 
       <section class="rooms">
         <div class="rooms__container">
-          <div class="room-card">
-            <div class="room-card__img">
-              <div class="room-card__features-bar room-card__features-bar--rooms">
-                <img
-                  src="../assets/home/handpicked-rooms/bed.svg"
-                  alt="feature-icon-bed"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/wifi.svg"
-                  alt="feature-icon-wifi"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/car.svg"
-                  alt="feature-icon-parking"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/freeze.svg"
-                  alt="feature-icon-AC"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/gym.svg"
-                  alt="feature-icon-gym"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/cigar.svg"
-                  alt="feature-icon-noSmoke"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/bar.svg"
-                  alt="feature-icon-bar"
-                  class="room-card__features-icon"
-                />
-              </div>
-            </div>
-    
-            <div class="room-card__info rom-card__info--rooms">
-              <h4
-                class="text__subtitle--small text--lightblack text--center room-card__title"
-              >
-                Minimal Duplex Room
-              </h4>
-              <p
-                class="text__card-paragraph text--center text--gray rom-card__paragraph"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore.
-              </p>
-              <div class="room-card__price-container">
-                <p
-                class="room-card__price room-card__price--small text--gold"
-              >
-                345 <span class="room-card__price--night">/Night</span>
-              </p>
-              <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
-              </div>
-             
+        <div class="swiper swiper__rooms">
+      <div class="swiper-wrapper swiper__rooms-wrapper">
+       <div class="swiper-slide rooms__slide">
+        <div class="room-card room-card--rooms">
+          <div class="room-card__img">
+            <img class="room-card__img--img" src="../assets/home/handpicked-rooms/rooms/sasha-kaunas-67-sOi7mVIk-unsplash.jpg" alt="room photo">
+            <div class="room-card__features-bar room-card__features-bar--rooms">
+              <img
+                src="../assets/home/handpicked-rooms/bed.svg"
+                alt="feature-icon-bed"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/wifi.svg"
+                alt="feature-icon-wifi"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/car.svg"
+                alt="feature-icon-parking"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/freeze.svg"
+                alt="feature-icon-AC"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/gym.svg"
+                alt="feature-icon-gym"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/cigar.svg"
+                alt="feature-icon-noSmoke"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/bar.svg"
+                alt="feature-icon-bar"
+                class="room-card__features-icon"
+              />
             </div>
           </div>
-
-          <div class="room-card">
-            <div class="room-card__img">
-              <div class="room-card__features-bar room-card__features-bar--rooms">
-                <img
-                  src="../assets/home/handpicked-rooms/bed.svg"
-                  alt="feature-icon-bed"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/wifi.svg"
-                  alt="feature-icon-wifi"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/car.svg"
-                  alt="feature-icon-parking"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/freeze.svg"
-                  alt="feature-icon-AC"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/gym.svg"
-                  alt="feature-icon-gym"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/cigar.svg"
-                  alt="feature-icon-noSmoke"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/bar.svg"
-                  alt="feature-icon-bar"
-                  class="room-card__features-icon"
-                />
-              </div>
-            </div>
-    
-            <div class="room-card__info rom-card__info--rooms">
-              <h4
-                class="text__subtitle--small text--lightblack text--center room-card__title"
-              >
-                Minimal Duplex Room
-              </h4>
+  
+          <div class="room-card__info rom-card__info--rooms">
+            <h4
+              class="text__subtitle--small text--lightblack text--center room-card__title"
+            >
+              Minimal Duplex Room
+            </h4>
+            <p
+              class="text__card-paragraph text--center text--gray rom-card__paragraph"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+            <div class="room-card__price-container">
               <p
-                class="text__card-paragraph text--center text--gray rom-card__paragraph"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore.
-              </p>
-              <div class="room-card__price-container">
-                <p
-                class="room-card__price room-card__price--small text--gold"
-              >
-                345 <span class="room-card__price--night">/Night</span>
-              </p>
-              <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
-              </div>
-             
+              class="room-card__price room-card__price--small text--gold"
+            >
+              345 <span class="room-card__price--night">/Night</span>
+            </p>
+            <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
             </div>
+           
           </div>
-
-          <div class="room-card">
-            <div class="room-card__img">
-              <div class="room-card__features-bar room-card__features-bar--rooms">
-                <img
-                  src="../assets/home/handpicked-rooms/bed.svg"
-                  alt="feature-icon-bed"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/wifi.svg"
-                  alt="feature-icon-wifi"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/car.svg"
-                  alt="feature-icon-parking"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/freeze.svg"
-                  alt="feature-icon-AC"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/gym.svg"
-                  alt="feature-icon-gym"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/cigar.svg"
-                  alt="feature-icon-noSmoke"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/bar.svg"
-                  alt="feature-icon-bar"
-                  class="room-card__features-icon"
-                />
-              </div>
-            </div>
-    
-            <div class="room-card__info rom-card__info--rooms">
-              <h4
-                class="text__subtitle--small text--lightblack text--center room-card__title"
-              >
-                Minimal Duplex Room
-              </h4>
-              <p
-                class="text__card-paragraph text--center text--gray rom-card__paragraph"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore.
-              </p>
-              <div class="room-card__price-container">
-                <p
-                class="room-card__price room-card__price--small text--gold"
-              >
-                345 <span class="room-card__price--night">/Night</span>
-              </p>
-              <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
-              </div>
-             
-            </div>
-          </div>
-
-          <div class="room-card">
-            <div class="room-card__img">
-              <div class="room-card__features-bar room-card__features-bar--rooms">
-                <img
-                  src="../assets/home/handpicked-rooms/bed.svg"
-                  alt="feature-icon-bed"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/wifi.svg"
-                  alt="feature-icon-wifi"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/car.svg"
-                  alt="feature-icon-parking"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/freeze.svg"
-                  alt="feature-icon-AC"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/gym.svg"
-                  alt="feature-icon-gym"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/cigar.svg"
-                  alt="feature-icon-noSmoke"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/bar.svg"
-                  alt="feature-icon-bar"
-                  class="room-card__features-icon"
-                />
-              </div>
-            </div>
-    
-            <div class="room-card__info rom-card__info--rooms">
-              <h4
-                class="text__subtitle--small text--lightblack text--center room-card__title"
-              >
-                Minimal Duplex Room
-              </h4>
-              <p
-                class="text__card-paragraph text--center text--gray rom-card__paragraph"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore.
-              </p>
-              <div class="room-card__price-container">
-                <p
-                class="room-card__price room-card__price--small text--gold"
-              >
-                345 <span class="room-card__price--night">/Night</span>
-              </p>
-              <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
-              </div>
-             
-            </div>
-          </div>
-
-          <div class="room-card">
-            <div class="room-card__img">
-              <div class="room-card__features-bar room-card__features-bar--rooms">
-                <img
-                  src="../assets/home/handpicked-rooms/bed.svg"
-                  alt="feature-icon-bed"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/wifi.svg"
-                  alt="feature-icon-wifi"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/car.svg"
-                  alt="feature-icon-parking"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/freeze.svg"
-                  alt="feature-icon-AC"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/gym.svg"
-                  alt="feature-icon-gym"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/cigar.svg"
-                  alt="feature-icon-noSmoke"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/bar.svg"
-                  alt="feature-icon-bar"
-                  class="room-card__features-icon"
-                />
-              </div>
-            </div>
-    
-            <div class="room-card__info rom-card__info--rooms">
-              <h4
-                class="text__subtitle--small text--lightblack text--center room-card__title"
-              >
-                Minimal Duplex Room
-              </h4>
-              <p
-                class="text__card-paragraph text--center text--gray rom-card__paragraph"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore.
-              </p>
-              <div class="room-card__price-container">
-                <p
-                class="room-card__price room-card__price--small text--gold"
-              >
-                345 <span class="room-card__price--night">/Night</span>
-              </p>
-              <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
-              </div>
-             
-            </div>
-          </div>
-
-          <div class="room-card">
-            <div class="room-card__img">
-              <div class="room-card__features-bar room-card__features-bar--rooms">
-                <img
-                  src="../assets/home/handpicked-rooms/bed.svg"
-                  alt="feature-icon-bed"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/wifi.svg"
-                  alt="feature-icon-wifi"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/car.svg"
-                  alt="feature-icon-parking"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/freeze.svg"
-                  alt="feature-icon-AC"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/gym.svg"
-                  alt="feature-icon-gym"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/cigar.svg"
-                  alt="feature-icon-noSmoke"
-                  class="room-card__features-icon"
-                />
-                <img
-                  src="../assets/home/handpicked-rooms/bar.svg"
-                  alt="feature-icon-bar"
-                  class="room-card__features-icon"
-                />
-              </div>
-            </div>
-    
-            <div class="room-card__info rom-card__info--rooms">
-              <h4
-                class="text__subtitle--small text--lightblack text--center room-card__title"
-              >
-                Minimal Duplex Room
-              </h4>
-              <p
-                class="text__card-paragraph text--center text--gray rom-card__paragraph"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore.
-              </p>
-              <div class="room-card__price-container">
-                <p
-                class="room-card__price room-card__price--small text--gold"
-              >
-                345 <span class="room-card__price--night">/Night</span>
-              </p>
-              <p class="room-card__price room-card__price--small text--booking-gray">Book Now</p>
-              </div>
-             
-            </div>
-          </div>
-          <img src="../assets/about-us/Pagination.svg" alt="pagination">
         </div>
+        <div class="room-card room-card--rooms">
+          <div class="room-card__img">
+            <img class="room-card__img--img" src="../assets/home/handpicked-rooms/rooms/edelle-bruton-PJNO2sLlbB8-unsplash.jpg" alt="room photo">
+            <div class="room-card__features-bar room-card__features-bar--rooms">
+              <img
+                src="../assets/home/handpicked-rooms/bed.svg"
+                alt="feature-icon-bed"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/wifi.svg"
+                alt="feature-icon-wifi"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/car.svg"
+                alt="feature-icon-parking"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/freeze.svg"
+                alt="feature-icon-AC"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/gym.svg"
+                alt="feature-icon-gym"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/cigar.svg"
+                alt="feature-icon-noSmoke"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/bar.svg"
+                alt="feature-icon-bar"
+                class="room-card__features-icon"
+              />
+            </div>
+          </div>
+  
+          <div class="room-card__info rom-card__info--rooms">
+            <h4
+              class="text__subtitle--small text--lightblack text--center room-card__title"
+            >
+              Minimal Duplex Room
+            </h4>
+            <p
+              class="text__card-paragraph text--center text--gray rom-card__paragraph"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+            <div class="room-card__price-container">
+              <p
+              class="room-card__price room-card__price--small text--gold"
+            >
+              345 <span class="room-card__price--night">/Night</span>
+            </p>
+            <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="room-card room-card--rooms">
+          <div class="room-card__img">
+            <img class="room-card__img--img" src="../assets/home/handpicked-rooms/rooms/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg" alt="room photo">
+            <div class="room-card__features-bar room-card__features-bar--rooms">
+              <img
+                src="../assets/home/handpicked-rooms/bed.svg"
+                alt="feature-icon-bed"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/wifi.svg"
+                alt="feature-icon-wifi"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/car.svg"
+                alt="feature-icon-parking"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/freeze.svg"
+                alt="feature-icon-AC"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/gym.svg"
+                alt="feature-icon-gym"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/cigar.svg"
+                alt="feature-icon-noSmoke"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/bar.svg"
+                alt="feature-icon-bar"
+                class="room-card__features-icon"
+              />
+            </div>
+          </div>
+  
+          <div class="room-card__info rom-card__info--rooms">
+            <h4
+              class="text__subtitle--small text--lightblack text--center room-card__title"
+            >
+              Minimal Duplex Room
+            </h4>
+            <p
+              class="text__card-paragraph text--center text--gray rom-card__paragraph"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+            <div class="room-card__price-container">
+              <p
+              class="room-card__price room-card__price--small text--gold"
+            >
+              345 <span class="room-card__price--night">/Night</span>
+            </p>
+            <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="room-card room-card--rooms">
+          <div class="room-card__img">
+            <img class="room-card__img--img" src="../assets/home/handpicked-rooms/rooms/sasha-kaunas-67-sOi7mVIk-unsplash.jpg" alt="room photo">
+            <div class="room-card__features-bar room-card__features-bar--rooms">
+              <img
+                src="../assets/home/handpicked-rooms/bed.svg"
+                alt="feature-icon-bed"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/wifi.svg"
+                alt="feature-icon-wifi"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/car.svg"
+                alt="feature-icon-parking"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/freeze.svg"
+                alt="feature-icon-AC"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/gym.svg"
+                alt="feature-icon-gym"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/cigar.svg"
+                alt="feature-icon-noSmoke"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/bar.svg"
+                alt="feature-icon-bar"
+                class="room-card__features-icon"
+              />
+            </div>
+          </div>
+  
+          <div class="room-card__info rom-card__info--rooms">
+            <h4
+              class="text__subtitle--small text--lightblack text--center room-card__title"
+            >
+              Minimal Duplex Room
+            </h4>
+            <p
+              class="text__card-paragraph text--center text--gray rom-card__paragraph"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+            <div class="room-card__price-container">
+              <p
+              class="room-card__price room-card__price--small text--gold"
+            >
+              345 <span class="room-card__price--night">/Night</span>
+            </p>
+            <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="room-card room-card--rooms">
+          <div class="room-card__img">
+            <img class="room-card__img--img" src="../assets/home/handpicked-rooms/rooms/edelle-bruton-PJNO2sLlbB8-unsplash.jpg" alt="room photo">
+            <div class="room-card__features-bar room-card__features-bar--rooms">
+              <img
+                src="../assets/home/handpicked-rooms/bed.svg"
+                alt="feature-icon-bed"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/wifi.svg"
+                alt="feature-icon-wifi"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/car.svg"
+                alt="feature-icon-parking"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/freeze.svg"
+                alt="feature-icon-AC"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/gym.svg"
+                alt="feature-icon-gym"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/cigar.svg"
+                alt="feature-icon-noSmoke"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/bar.svg"
+                alt="feature-icon-bar"
+                class="room-card__features-icon"
+              />
+            </div>
+          </div>
+  
+          <div class="room-card__info rom-card__info--rooms">
+            <h4
+              class="text__subtitle--small text--lightblack text--center room-card__title"
+            >
+              Minimal Duplex Room
+            </h4>
+            <p
+              class="text__card-paragraph text--center text--gray rom-card__paragraph"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+            <div class="room-card__price-container">
+              <p
+              class="room-card__price room-card__price--small text--gold"
+            >
+              345 <span class="room-card__price--night">/Night</span>
+            </p>
+            <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="room-card room-card--rooms">
+          <div class="room-card__img">
+            <img class="room-card__img--img" src="../assets/home/handpicked-rooms/rooms/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg" alt="room photo">
+            <div class="room-card__features-bar room-card__features-bar--rooms">
+              <img
+                src="../assets/home/handpicked-rooms/bed.svg"
+                alt="feature-icon-bed"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/wifi.svg"
+                alt="feature-icon-wifi"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/car.svg"
+                alt="feature-icon-parking"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/freeze.svg"
+                alt="feature-icon-AC"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/gym.svg"
+                alt="feature-icon-gym"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/cigar.svg"
+                alt="feature-icon-noSmoke"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/bar.svg"
+                alt="feature-icon-bar"
+                class="room-card__features-icon"
+              />
+            </div>
+          </div>
+  
+          <div class="room-card__info rom-card__info--rooms">
+            <h4
+              class="text__subtitle--small text--lightblack text--center room-card__title"
+            >
+              Minimal Duplex Room
+            </h4>
+            <p
+              class="text__card-paragraph text--center text--gray rom-card__paragraph"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+            <div class="room-card__price-container">
+              <p
+              class="room-card__price room-card__price--small text--gold"
+            >
+              345 <span class="room-card__price--night">/Night</span>
+            </p>
+            <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="room-card room-card--rooms">
+          <div class="room-card__img">
+            <img class="room-card__img--img" src="../assets/home/handpicked-rooms/rooms/sasha-kaunas-67-sOi7mVIk-unsplash.jpg" alt="room photo">
+            <div class="room-card__features-bar room-card__features-bar--rooms">
+              <img
+                src="../assets/home/handpicked-rooms/bed.svg"
+                alt="feature-icon-bed"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/wifi.svg"
+                alt="feature-icon-wifi"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/car.svg"
+                alt="feature-icon-parking"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/freeze.svg"
+                alt="feature-icon-AC"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/gym.svg"
+                alt="feature-icon-gym"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/cigar.svg"
+                alt="feature-icon-noSmoke"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/bar.svg"
+                alt="feature-icon-bar"
+                class="room-card__features-icon"
+              />
+            </div>
+          </div>
+  
+          <div class="room-card__info rom-card__info--rooms">
+            <h4
+              class="text__subtitle--small text--lightblack text--center room-card__title"
+            >
+              Minimal Duplex Room
+            </h4>
+            <p
+              class="text__card-paragraph text--center text--gray rom-card__paragraph"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+            <div class="room-card__price-container">
+              <p
+              class="room-card__price room-card__price--small text--gold"
+            >
+              345 <span class="room-card__price--night">/Night</span>
+            </p>
+            <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
+            </div>
+           
+          </div>
+        </div>
+       
+       </div>
+       <div class="swiper-slide rooms__slide">
+        <div class="room-card room-card--rooms">
+          <div class="room-card__img">
+            <img class="room-card__img--img" src="../assets/home/handpicked-rooms/rooms/edelle-bruton-PJNO2sLlbB8-unsplash.jpg" alt="room photo">
+            <div class="room-card__features-bar room-card__features-bar--rooms">
+              <img
+                src="../assets/home/handpicked-rooms/bed.svg"
+                alt="feature-icon-bed"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/wifi.svg"
+                alt="feature-icon-wifi"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/car.svg"
+                alt="feature-icon-parking"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/freeze.svg"
+                alt="feature-icon-AC"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/gym.svg"
+                alt="feature-icon-gym"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/cigar.svg"
+                alt="feature-icon-noSmoke"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/bar.svg"
+                alt="feature-icon-bar"
+                class="room-card__features-icon"
+              />
+            </div>
+          </div>
+  
+          <div class="room-card__info rom-card__info--rooms">
+            <h4
+              class="text__subtitle--small text--lightblack text--center room-card__title"
+            >
+              Minimal Duplex Room
+            </h4>
+            <p
+              class="text__card-paragraph text--center text--gray rom-card__paragraph"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+            <div class="room-card__price-container">
+              <p
+              class="room-card__price room-card__price--small text--gold"
+            >
+              345 <span class="room-card__price--night">/Night</span>
+            </p>
+            <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="room-card room-card--rooms">
+          <div class="room-card__img">
+            <img class="room-card__img--img" src="../assets/home/handpicked-rooms/rooms/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg" alt="room photo">
+            <div class="room-card__features-bar room-card__features-bar--rooms">
+              <img
+                src="../assets/home/handpicked-rooms/bed.svg"
+                alt="feature-icon-bed"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/wifi.svg"
+                alt="feature-icon-wifi"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/car.svg"
+                alt="feature-icon-parking"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/freeze.svg"
+                alt="feature-icon-AC"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/gym.svg"
+                alt="feature-icon-gym"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/cigar.svg"
+                alt="feature-icon-noSmoke"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/bar.svg"
+                alt="feature-icon-bar"
+                class="room-card__features-icon"
+              />
+            </div>
+          </div>
+  
+          <div class="room-card__info rom-card__info--rooms">
+            <h4
+              class="text__subtitle--small text--lightblack text--center room-card__title"
+            >
+              Minimal Duplex Room
+            </h4>
+            <p
+              class="text__card-paragraph text--center text--gray rom-card__paragraph"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+            <div class="room-card__price-container">
+              <p
+              class="room-card__price room-card__price--small text--gold"
+            >
+              345 <span class="room-card__price--night">/Night</span>
+            </p>
+            <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="room-card room-card--rooms">
+          <div class="room-card__img">
+            <img class="room-card__img--img" src="../assets/home/handpicked-rooms/rooms/sasha-kaunas-67-sOi7mVIk-unsplash.jpg" alt="room photo">
+            <div class="room-card__features-bar room-card__features-bar--rooms">
+              <img
+                src="../assets/home/handpicked-rooms/bed.svg"
+                alt="feature-icon-bed"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/wifi.svg"
+                alt="feature-icon-wifi"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/car.svg"
+                alt="feature-icon-parking"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/freeze.svg"
+                alt="feature-icon-AC"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/gym.svg"
+                alt="feature-icon-gym"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/cigar.svg"
+                alt="feature-icon-noSmoke"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/bar.svg"
+                alt="feature-icon-bar"
+                class="room-card__features-icon"
+              />
+            </div>
+          </div>
+  
+          <div class="room-card__info rom-card__info--rooms">
+            <h4
+              class="text__subtitle--small text--lightblack text--center room-card__title"
+            >
+              Minimal Duplex Room
+            </h4>
+            <p
+              class="text__card-paragraph text--center text--gray rom-card__paragraph"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+            <div class="room-card__price-container">
+              <p
+              class="room-card__price room-card__price--small text--gold"
+            >
+              345 <span class="room-card__price--night">/Night</span>
+            </p>
+            <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="room-card room-card--rooms">
+          <div class="room-card__img">
+            <img class="room-card__img--img" src="../assets/home/handpicked-rooms/rooms/edelle-bruton-PJNO2sLlbB8-unsplash.jpg" alt="room photo">
+            <div class="room-card__features-bar room-card__features-bar--rooms">
+              <img
+                src="../assets/home/handpicked-rooms/bed.svg"
+                alt="feature-icon-bed"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/wifi.svg"
+                alt="feature-icon-wifi"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/car.svg"
+                alt="feature-icon-parking"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/freeze.svg"
+                alt="feature-icon-AC"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/gym.svg"
+                alt="feature-icon-gym"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/cigar.svg"
+                alt="feature-icon-noSmoke"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/bar.svg"
+                alt="feature-icon-bar"
+                class="room-card__features-icon"
+              />
+            </div>
+          </div>
+  
+          <div class="room-card__info rom-card__info--rooms">
+            <h4
+              class="text__subtitle--small text--lightblack text--center room-card__title"
+            >
+              Minimal Duplex Room
+            </h4>
+            <p
+              class="text__card-paragraph text--center text--gray rom-card__paragraph"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+            <div class="room-card__price-container">
+              <p
+              class="room-card__price room-card__price--small text--gold"
+            >
+              345 <span class="room-card__price--night">/Night</span>
+            </p>
+            <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="room-card room-card--rooms">
+          <div class="room-card__img">
+            <img class="room-card__img--img" src="../assets/home/handpicked-rooms/rooms/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg" alt="room photo">
+            <div class="room-card__features-bar room-card__features-bar--rooms">
+              <img
+                src="../assets/home/handpicked-rooms/bed.svg"
+                alt="feature-icon-bed"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/wifi.svg"
+                alt="feature-icon-wifi"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/car.svg"
+                alt="feature-icon-parking"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/freeze.svg"
+                alt="feature-icon-AC"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/gym.svg"
+                alt="feature-icon-gym"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/cigar.svg"
+                alt="feature-icon-noSmoke"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/bar.svg"
+                alt="feature-icon-bar"
+                class="room-card__features-icon"
+              />
+            </div>
+          </div>
+  
+          <div class="room-card__info rom-card__info--rooms">
+            <h4
+              class="text__subtitle--small text--lightblack text--center room-card__title"
+            >
+              Minimal Duplex Room
+            </h4>
+            <p
+              class="text__card-paragraph text--center text--gray rom-card__paragraph"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+            <div class="room-card__price-container">
+              <p
+              class="room-card__price room-card__price--small text--gold"
+            >
+              345 <span class="room-card__price--night">/Night</span>
+            </p>
+            <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="room-card room-card--rooms">
+          <div class="room-card__img">
+            <img class="room-card__img--img" src="../assets/home/handpicked-rooms/rooms/sasha-kaunas-67-sOi7mVIk-unsplash.jpg" alt="room photo">
+            <div class="room-card__features-bar room-card__features-bar--rooms">
+              <img
+                src="../assets/home/handpicked-rooms/bed.svg"
+                alt="feature-icon-bed"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/wifi.svg"
+                alt="feature-icon-wifi"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/car.svg"
+                alt="feature-icon-parking"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/freeze.svg"
+                alt="feature-icon-AC"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/gym.svg"
+                alt="feature-icon-gym"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/cigar.svg"
+                alt="feature-icon-noSmoke"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/bar.svg"
+                alt="feature-icon-bar"
+                class="room-card__features-icon"
+              />
+            </div>
+          </div>
+  
+          <div class="room-card__info rom-card__info--rooms">
+            <h4
+              class="text__subtitle--small text--lightblack text--center room-card__title"
+            >
+              Minimal Duplex Room
+            </h4>
+            <p
+              class="text__card-paragraph text--center text--gray rom-card__paragraph"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+            <div class="room-card__price-container">
+              <p
+              class="room-card__price room-card__price--small text--gold"
+            >
+              345 <span class="room-card__price--night">/Night</span>
+            </p>
+            <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="room-card room-card--rooms">
+          <div class="room-card__img">
+            <img class="room-card__img--img" src="../assets/home/handpicked-rooms/rooms/edelle-bruton-PJNO2sLlbB8-unsplash.jpg" alt="room photo">
+            <div class="room-card__features-bar room-card__features-bar--rooms">
+              <img
+                src="../assets/home/handpicked-rooms/bed.svg"
+                alt="feature-icon-bed"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/wifi.svg"
+                alt="feature-icon-wifi"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/car.svg"
+                alt="feature-icon-parking"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/freeze.svg"
+                alt="feature-icon-AC"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/gym.svg"
+                alt="feature-icon-gym"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/cigar.svg"
+                alt="feature-icon-noSmoke"
+                class="room-card__features-icon"
+              />
+              <img
+                src="../assets/home/handpicked-rooms/bar.svg"
+                alt="feature-icon-bar"
+                class="room-card__features-icon"
+              />
+            </div>
+          </div>
+  
+          <div class="room-card__info rom-card__info--rooms">
+            <h4
+              class="text__subtitle--small text--lightblack text--center room-card__title"
+            >
+              Minimal Duplex Room
+            </h4>
+            <p
+              class="text__card-paragraph text--center text--gray rom-card__paragraph"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+            <div class="room-card__price-container">
+              <p
+              class="room-card__price room-card__price--small text--gold"
+            >
+              345 <span class="room-card__price--night">/Night</span>
+            </p>
+            <p class="room-card__price room-card__price--small text--booking-gray">Booking Now</p>
+            </div>
+           
+          </div>
+        </div>
+       
+       </div>
+       
+      </div>
+      <div class="rooms__slider-buttons">
+        <button class="room-card__button button button--room-card room-slider__button-prev"><img src="../assets/home/menu/Vector.svg" alt="arrow-icon" /></button>
+        <div class="swiper-pagination swiper-pagination--rooms swiper"></div>
+        <button class="room-card__button button button--room-card button--golden room-slider__button-next"><img src="../assets/home/menu/arrow-right.svg" alt="arrow-icon" /></button>
+       
+      </div> 
+      
+     
+        </div>
+      </div>
       </section>
 
        <!--FOOTER-->
@@ -571,5 +1113,7 @@
     </footer>
     
     <script src="../scripts/burger-menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="../scripts/roomsSlider.js"></script>
 </body>
 </html>
