@@ -27,14 +27,15 @@
   max-width: 375px;
 }
 
-.core-features__slider--dark {
-  background-color: #292929;
-}
-
 .core-features__slide {
+  height: 370px;
   position: relative;
   padding-left: 0.982rem;
   width: 100%;
+}
+
+.core-features__slide--dark {
+  background-color: #292929;
 }
 
 .core-features_number-icon {

@@ -21,8 +21,8 @@
   max-width: 375px;
 }
 
-.swiper-pagination-bullet-active {
-  background: #BEAD8E;
+.swiper__core-features--dark {
+  max-width: 375px;
 }
 
 .swiper--menu {
@@ -49,8 +49,21 @@
 }
 
 .swiper--menu__photo-wrapper {
-  max-width: 335px;
-  max-height: 335px;
+  max-width: 370px;
+  max-height: 370px;
   height: auto;
   margin-bottom: 3rem;
+}
+
+.swiper-pagination-bullet-active {
+  background: #BEAD8E;
+}
+
+.swiper__fun-facts__slider {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  max-width: 570px;
 }/*# sourceMappingURL=swiper.css.map */

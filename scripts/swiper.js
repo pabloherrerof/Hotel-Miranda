@@ -29,7 +29,8 @@ const swiper = new Swiper('.swiper--handpicked-rooms', {
  
     
    });
- 
+   
+  
    const swiperMenu = new Swiper('.swiper--menu', {
     direction: "horizontal",
     loop: true,
@@ -51,6 +52,32 @@ const swiper = new Swiper('.swiper--handpicked-rooms', {
  
     pagination: {
       el: '.swiper-pagination--menu__photo',
+      clickable: true,
+    },
+ 
+    
+   });
+
+   const swiperCoreFeaturesDark = new Swiper('.swiper__core-features--dark', {
+    direction: "horizontal",
+    loop: true,
+    slidesPerView: 1,
+ 
+    pagination: {
+      el: '.swiper-pagination__core-features--dark',
+      clickable: true,
+    },
+ 
+    
+   });
+
+   const swiperFunFacts = new Swiper('.swiper__fun-facts__slider', {
+    direction: "horizontal",
+    loop: true,
+    slidesPerView: 1,
+ 
+    pagination: {
+      el: '.swiper-pagination--fun-facts',
       clickable: true,
     },
  
