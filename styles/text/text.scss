@@ -135,6 +135,12 @@ letter-spacing: -0.47999998927116394px;
 text-align: left;
 }
 
+.text__page-card--home:hover{
+  scale: 1.1;
+  cursor: pointer;
+  color: #BEAD8E;
+}
+
 .text__price{
   font-family: 'Archivo';
 font-style: normal;

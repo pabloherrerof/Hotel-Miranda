@@ -1,19 +1,26 @@
 .page-title{
     padding-top: 70px;
-    background-color: #333333;
+    background-image: url("../../assets/home/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
   display: flex;
   flex-direction: column;
 }
 
 .page-title__container{
-    margin-top: 4.688rem;
+    padding-top: 4.688rem;
     padding-left: 5.3%;
     padding-right: 5.3%;
+    backdrop-filter: blur(3px);
+    backdrop-filter: brightness(90%);
+
 }
 
 .page-title__pretitle{
     margin-bottom: 1rem;
     line-height: 15px;
+    
 }
 
 .page-title__title{

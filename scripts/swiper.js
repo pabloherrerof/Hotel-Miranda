@@ -8,6 +8,9 @@ const menuNextButton = document.querySelector('.menu__button-next');
 const popularRoomsPrev = document.querySelector('.popular-rooms__button-prev');
 const popularRoomsNext = document.querySelector('.popular-rooms__button-next');
 
+const relatedRoomsPrev= document.querySelector('.related-rooms__button-prev');
+const relatedRoomsNext = document.querySelector('.related-rooms__button-next');
+
 const swiper = new Swiper('.swiper--handpicked-rooms', {
    direction: "horizontal",
    loop: true,
@@ -96,6 +99,19 @@ const swiper = new Swiper('.swiper--handpicked-rooms', {
     navigation: {
      nextEl: popularRoomsNext,
      prevEl: popularRoomsPrev, 
+   },
+ 
+    
+   });
+
+   const swiperRelatedRooms = new Swiper('.swiper__related-rooms', {
+    direction: "horizontal",
+    loop: true,
+    slidesPerView: 1,
+    
+    navigation: {
+     nextEl: relatedRoomsNext,
+     prevEl: relatedRoomsPrev, 
    },
  
     
