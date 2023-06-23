@@ -15,7 +15,7 @@ window.addEventListener('load', function() {
     map.style.width= "1000px"
     map.style.height="700px"
   } else{
-    map.style.width= "500px"
+    map.style.width= "100%"
   }
 });
  
@@ -28,6 +28,6 @@ window.addEventListener('resize', function() {
     map.style.width= "1000px"
     map.style.height="700px"
   } else{
-    map.style.width= "500px"
+    map.style.width= "100%"
   }
 });

@@ -13,7 +13,6 @@
 .introduction__video{
     width: 100%;
     max-width: 600px;
-    height: 40vh;
     margin-bottom: 2.25rem;
 }
 
@@ -90,7 +89,13 @@ letter-spacing: -1.05px;
         max-width: 1170px;
         padding: 2.5rem;
         gap: 50px;
+        align-items: center;
+        height: 500px
     }
+
+   .introduction__card-img{
+    height: 100%;
+   }
  
 
 }

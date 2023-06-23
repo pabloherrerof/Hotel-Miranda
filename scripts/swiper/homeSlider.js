@@ -22,7 +22,11 @@ const swiper = new Swiper('.swiper--handpicked-rooms', {
  
    const swiperCoreFeatures = new Swiper('.swiper--core-features', {
      direction: "horizontal",
- 
+    
+     pagination: {
+      el: '.swiper-pagination--core-features',
+      clickable: true,
+    },
  
      breakpoints: {
        1000: {
