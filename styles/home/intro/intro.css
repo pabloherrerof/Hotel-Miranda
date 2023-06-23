@@ -83,4 +83,51 @@
   width: 1.5rem;
   height: 1.5rem;
   margin-right: 0.55rem;
+}
+
+@media (min-width: 1000px) {
+  .intro {
+    height: 100vh;
+  }
+  .intro__perfect-base--container {
+    height: 75%;
+  }
+  .intro__perfect-base {
+    padding-top: 170px;
+    padding-bottom: 110px;
+    padding-left: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .intro__buttons {
+    flex-direction: row;
+  }
+  .intro__title {
+    font-family: "Old Standard TT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 90px;
+    max-width: 600px;
+    margin-bottom: 3rem;
+  }
+  .intro__availability {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    padding-left: 18%;
+    padding-right: 18%;
+    gap: 10%;
+  }
+  .intro__calendar {
+    flex-direction: row;
+    gap: 2rem;
+    width: 70%;
+  }
+  .intro__calendar-item {
+    width: 50%;
+  }
 }/*# sourceMappingURL=intro.css.map */

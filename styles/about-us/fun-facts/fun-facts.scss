@@ -41,3 +41,39 @@
   gap: 1rem;
   width: 100%
 }
+
+@media (min-width: 1000px) {
+  .fun-facts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fun-facts__container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .fun-facts__cards{
+    
+    flex-direction: row;
+    min-width: 900px;
+    margin-bottom: 60px;
+  }
+  .fun-facts__title{
+    margin-bottom: 60px;
+  }
+  .fun-facts__slider{
+    min-width: 900px;
+    max-width: unset;
+    max-height: unset;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .fun-facts__slide{
+    width: 50%
+  }
+  
+}

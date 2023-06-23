@@ -17,16 +17,15 @@
   <body>
    <!--HEADER-->
    <header class="header">
-    <div></div>
     <nav class="nav">
       <div class="nav--left">
         <button class="nav__burger button"></button>
 
         <div class="nav__logo">
           <div class="nav__logo-H">
-            <img src="./assets/header/H.svg" alt="logo" />
+            <img class="nav__H" src="./assets/header/H.svg" alt="logo" />
           </div>
-          <img src="./assets/header/Hotel Miranda.svg" alt="logo" />
+          <img class="nav__company" src="./assets/header/Hotel Miranda.svg" alt="logo" />
         </div>
       </div>
 
@@ -110,56 +109,61 @@
 
     <!--SECCION ABOUT US-->
     <section class="about-us">
-      <div class="about-us__info">
-        <h5 class="text__pretitle text--gray about-us__pretitle">ABOUT US</h5>
-        <h1 class="text__title text--black about-us__title">
-          Discover Our Underground.
-        </h1>
-        <p class="text__paragraph text--gray about-us__paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </p>
-        <button class="button button--golden button--book">BOOK NOW</button>
-      </div>
-
-      <div class="about-us__cards">
-        <div class="about-us__card">
-          <div class="about-us__card-img about-us__card-img--strong-team"></div>
-          <div class="about-us__card-text">
-            <img
-              class="about-us__card-bg"
-              src="./assets/home/about-us/strong-team-background.svg"
-              alt="strong-team-bg"
-            />
-            <img
-              class="about-us__card-icon"
-              src="./assets/home/about-us/strong-team.svg"
-              alt="strong-team-icon"
-            />
-            <h6 class="text__subtitle about-us__card-title">Strong Team</h6>
-            <p class="text__card-paragraph text--black">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor.
-            </p>
+      <div class="about-us__container">
+        <div class="about-us__info">
+          <div class="about-us__info-container">
+            <h5 class="text__pretitle text__pretitle--out text--gray about-us__pretitle">ABOUT US</h5>
+          <h1 class="text__title text--black about-us__title">
+            Discover Our Underground.
+          </h1>
+          <p class="text__paragraph text--gray about-us__paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <button class="button button--golden button--book">BOOK NOW</button>
           </div>
+          
         </div>
-        <div class="about-us__card">
-          <div class="about-us__card-img about-us__card-img--luxury-room"></div>
-          <div class="about-us__card-text about-us__card-text--dark">
-            <img
-              class="about-us__card-icon"
-              src="./assets/home/about-us/luxury-room.svg"
-              alt="luxury-room-icon"
-            />
-            <h6 class="text__subtitle text--light about-us__card-title">
-              Luxury Room
-            </h6>
-            <p class="text__card-paragraph text--light">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor.
-            </p>
+  
+        <div class="about-us__cards">
+          <div class="about-us__card about-us__card--reverse">
+            <div class="about-us__card-img about-us__card-img--strong-team"></div>
+            <div class="about-us__card-text">
+              <img
+                class="about-us__card-bg"
+                src="./assets/home/about-us/strong-team-background.svg"
+                alt="strong-team-bg"
+              />
+              <img
+                class="about-us__card-icon"
+                src="./assets/home/about-us/strong-team.svg"
+                alt="strong-team-icon"
+              />
+              <h6 class="text__subtitle about-us__card-title">Strong Team</h6>
+              <p class="text__card-paragraph text--black">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </div>
+          <div class="about-us__card about-us__card--down">
+            <div class="about-us__card-img about-us__card-img--luxury-room"></div>
+            <div class="about-us__card-text about-us__card-text--dark">
+              <img
+                class="about-us__card-icon"
+                src="./assets/home/about-us/luxury-room.svg"
+                alt="luxury-room-icon"
+              />
+              <h6 class="text__subtitle text--light about-us__card-title">
+                Luxury Room
+              </h6>
+              <p class="text__card-paragraph text--light">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -223,7 +227,8 @@
               </div>
       
               <div class="room-card__info rom-card__info--rooms">
-                <h4
+                <div class="room-card__info-name">
+                  <h4
                   class="text__subtitle--small text--lightblack text--center room-card__title"
                 >
                   Minimal Duplex Room
@@ -234,6 +239,8 @@
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore.
                 </p>
+                </div>
+               
                 <div class="room-card__price-container">
                   <p
                   class="room-card__price room-card__price--small text--gold"
@@ -290,7 +297,8 @@
               </div>
       
               <div class="room-card__info rom-card__info--rooms">
-                <h4
+                <div class="room-card__info-name">
+                  <h4
                   class="text__subtitle--small text--lightblack text--center room-card__title"
                 >
                   Minimal Duplex Room
@@ -301,6 +309,8 @@
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore.
                 </p>
+                </div>
+               
                 <div class="room-card__price-container">
                   <p
                   class="room-card__price room-card__price--small text--gold"
@@ -357,7 +367,8 @@
               </div>
       
               <div class="room-card__info rom-card__info--rooms">
-                <h4
+                <div class="room-card__info-name">
+                  <h4
                   class="text__subtitle--small text--lightblack text--center room-card__title"
                 >
                   Minimal Duplex Room
@@ -368,6 +379,8 @@
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore.
                 </p>
+                </div>
+               
                 <div class="room-card__price-container">
                   <p
                   class="room-card__price room-card__price--small text--gold"
@@ -394,30 +407,35 @@
 
     <!--SECCION VIDEO-->
     <section class="intro-video">
-      <h5 class="text__pretitle text--gold intro-video__pretitle">
-        INTRO VIDEO
-      </h5>
-      <h1 class="text__title text--light intro-video__title">
-        Meet With Our Luxury Place.
-      </h1>
-      <p class="text__paragraph text--lightgray intro-video__paragraph">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat you have to understand this.
-      </p>
+      <div class="intro-video__container">
+        <h5 class="text__pretitle text--gold intro-video__pretitle">
+          INTRO VIDEO
+        </h5>
+        <h1 class="text__title text--light intro-video__title">
+          Meet With Our Luxury Place.
+        </h1>
+        <p class="text__paragraph text--lightgray intro-video__paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat you have to understand this.
+        </p>
+  
+        <video class="intro-video__video"  autoplay muted loop>
+          <source src="./assets/Miranda-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+  
+        <button class="button button--golden button--book">BOOK NOW</button>
+      </div>
+      
 
-      <video class="intro-video__video"  autoplay muted loop>
-        <source src="./assets/Miranda-video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-
-      <button class="button button--golden button--book">BOOK NOW</button>
     </section>
 
     <!--CORE FEATURES-->
     <section class="core-features">
-      <h5
+      <div class="core-features__container">
+        <h5
         class="text__pretitle text--gray text--center core-features__pretitle"
       >
         FACILITIES
@@ -556,6 +574,8 @@
     </div>
     <div class="swiper-pagination swiper-pagination--core-features swiper"></div>
 </div>
+      </div>
+    
       
     </section>
 
@@ -835,6 +855,6 @@
     </footer>
     <script src="./scripts/burger-menu.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="./scripts/swiper.js"></script>
+    <script src="./scripts/swiper/homeSlider.js"></script>
   </body>
 </html>

@@ -5,8 +5,24 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    max-height: 600px;
+    align-items: center;
 }
 
+.room-card--popular{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-height: 600px;
+    align-items: center;
+}
+.room-card:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
 .room-card--rooms{
     position: static;
     margin: 0;
@@ -16,6 +32,7 @@
     position: relative;
     background-color: #E5E5E5;
     height: 244px;
+    width: 100%;
     display: flex;
     justify-content: center;
     margin: 0 6.4%;
@@ -49,11 +66,11 @@
     display: flex;
     justify-content: center;
     margin: 0 6.4%;
-    object-fit: cover;
 }
 
 .room-card__img--img{
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -62,7 +79,6 @@
     padding: 1.18rem 1.5rem;
     position: relative;
     top: -20px;
-    margin: 0 6.4%;
    
 }
 
@@ -114,7 +130,7 @@ font-weight: 700;
     justify-content: space-between;
     padding: 0 2%;
     z-index: 1;
-    top: 100px;
+    top: 150px;
     max-width: 600px;
 }
 
@@ -122,3 +138,97 @@ font-weight: 700;
     max-width: 680px;
 }
 
+@media (min-width: 1000px) {
+    .room-card{
+        max-width: 800px;
+        width: 100%;
+        height: 700px;
+    }
+    .room-card__img{
+        height: 450px;
+    }
+    .room-card__info{
+        width: 80%;
+        position: absolute;
+        top:unset;
+        bottom: 50px;
+        z-index: 30;  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;  
+    }
+    .room-card__features-bar{
+        width: 310px;
+        height: 50px;
+    }
+    .room-card__buttons{
+        top: 200px;
+    }
+    .room-card__button--home{
+        max-width: 1000px
+    }
+
+    .room-card__info-name{
+        text-align: start;
+        width: 60%;
+    }
+    .room-card__title{
+        text-align: start;
+    }
+    .rom-card__paragraph{
+        text-align: start;
+    }
+    .room-card__price-container{
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+    }
+
+.room-card__price--small {
+    font-size: 20px;
+    line-height: 17px;
+}
+.room-card__price--night{
+    font-size: 15px;
+}
+.rooms__slide--rooms{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+.room-card--rooms{
+    flex-direction: row;
+    width: 100%;
+    max-width: 800px;
+    height: 250px;
+    align-items: center;
+    
+}
+.rom-card__info--rooms{
+    position: static;
+    flex-direction: column;
+    width: 60%
+}
+.room-card__img--rooms{
+    height: 250px;
+    width:40%;
+}
+.room-card__features-bar--rooms{
+    display: none;
+
+}
+.room-card--popular{
+    width: 280px;
+    margin: 0;
+}
+.room-card__features-bar--popular{
+    width: 200px;
+    bottom: 0;
+    top: unset
+}
+.room-card__info--popular{
+    position: static;
+    flex-direction: column;
+    width: 100%
+}
+}

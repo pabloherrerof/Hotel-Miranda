@@ -39,3 +39,10 @@
     flex-direction: row;
     gap: 0.8rem;
 }
+
+@media (min-width: 1000px) {
+    .page-title__container{
+        padding-left: 18%;
+        padding-top: 160px;
+    }
+}

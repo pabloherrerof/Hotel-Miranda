@@ -24,7 +24,9 @@
 .menu__donut {
   position: absolute;
   top: 55px;
-  right: 0;
+  right: -20px;
+  height: 115px;
+  width: 115px;
 }
 
 .menu__pretitle {
@@ -121,4 +123,20 @@
      object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+@media (min-width: 1000px) {
+  .menu__donut {
+    right: unset;
+    left: 10%;
+    transform: rotate(180deg);
+    width: 130px;
+    height: 130px;
+  }
+  .menu__container {
+    margin-bottom: 80px;
+  }
+  .menu__photo-slide {
+    max-width: 370px;
+  }
 }/*# sourceMappingURL=menu.css.map */

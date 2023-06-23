@@ -109,3 +109,32 @@
     border: none;
     display: flex;
 }
+
+@media (min-width: 1000px) {
+  .contact-form{
+    padding-bottom: 140px;
+  }
+  .contact-cards{
+    padding-top: 4.5rem;
+  }
+  .contact-cards__container{
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 0rem;
+    padding-bottom: 2rem;
+  }
+  .contact-form__img{
+    margin-bottom: 110px;
+  }
+  .contact-form__form {
+    max-width: 970px;
+  }
+  .contact-form__inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contact-form__input--msg {
+    padding-bottom: 10%;
+  }
+}

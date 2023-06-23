@@ -1,5 +1,9 @@
-.footer__container{
+.footer{
     background-image: url("../../assets/footer/fondo.svg");
+}
+
+.footer__container{
+
     padding-left: 5.3%;
     padding-right: 5.3%;
     padding-top: 2rem;
@@ -64,4 +68,30 @@
     background: #F8F8F8;
     justify-content: center;
     text-align: start;
+}
+
+@media (min-width: 1000px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer__container{
+        align-self: center;
+        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 4%;
+        width: 80%;
+        min-width: 950px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .footer__legal{
+        padding-left: 10%;
+        padding-right: 10%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
 }

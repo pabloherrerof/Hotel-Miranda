@@ -2,10 +2,15 @@
     width: 100%;
     justify-content: center;
     display: flex;
+    height: 700px;
+    z-index: 0;
+    position: relative;
+    padding-top: 50px;
 }
 .swiper-slide--handpicked-rooms{
     display: flex;
     justify-content: center;
+    z-index: 10;
 }
 
 .swiper-button-next,
@@ -21,7 +26,6 @@
 }
 
 .swiper__core-features--dark{
-  
     max-width: 375px;
 }
 
@@ -47,8 +51,6 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    justify-content: center;
-    display: flex;
     max-width: 335px;
 }
 
@@ -87,15 +89,52 @@
 }
 
 .swiper__popular-rooms{
-
+    width: 100%;
+    max-width: 600px;
     justify-content: center;
     display: flex;
-    max-width: 600px;
+    height: 700px;
+    z-index: 0;
+    padding-top: 50px;
 }
 
 
 .swiper-slide--popular-rooms{
-    display: flex;
-    justify-content: center;
+  width: 100%;
+}
 
+
+
+@media (min-width: 1000px) {
+    .swiper--core-features{
+        max-width: 900px;
+    }
+    .swiper__core-features--dark{
+        max-width: 900px;
+    }
+    .swiper--menu{
+        max-width: 900px;
+    }
+    .swiper--menu__photo{
+        max-width: 80%;
+    }
+    .swiper--menu__photo-wrapper{
+       max-width: 1170px;
+       width: 100%;
+    }
+    .swiper__fun-facts__slider{
+        min-width: 900px;
+    }
+    .swiper__rooms{
+        max-width: unset;
+        width: 900px;
+    }
+    .swiper__popular-rooms{
+        max-width: 950px;
+    }
+    .swiper-wrapper__popular-rooms{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem
+    }
 }

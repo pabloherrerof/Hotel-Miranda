@@ -1,6 +1,7 @@
 .offers {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .offers__cards {
@@ -95,8 +96,10 @@
   background-color: #222222;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  display: flex;
-  justify-content: center;
+}
+
+.popular-rooms__container {
+  width: 100%;
 }
 
 .popular-rooms__pretitle {
@@ -109,4 +112,24 @@
 
 .offers__button {
   margin-top: 0.5rem;
+}
+
+@media (min-width: 1000px) {
+  .offers__cards {
+    max-width: 800px;
+  }
+  .offers__card-img {
+    max-width: 800px;
+    width: 100%;
+  }
+  .popular-rooms__pretitle {
+    margin-bottom: 1.5rem;
+  }
+  .popular-rooms__pretitle {
+    margin-bottom: 70px;
+  }
+  .popular-rooms {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
 }/*# sourceMappingURL=offers.css.map */

@@ -4,6 +4,7 @@ const nextButton = document.querySelector('.room-slider__button-next');
 const roomSlider = new Swiper(".swiper__rooms", {
     direction: "horizontal",
     slidesPerView: 1,
+    centeredSlide: true,
     navigation: {
         nextEl: nextButton,
         prevEl: prevButton,

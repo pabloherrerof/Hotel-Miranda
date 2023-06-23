@@ -27,9 +27,9 @@
 
           <div class="nav__logo">
             <div class="nav__logo-H">
-              <img src="../assets/header/H.svg" alt="logo" />
+              <img  class="nav__H" src="../assets/header/H.svg" alt="logo" />
             </div>
-            <img src="../assets/header/Hotel Miranda.svg" alt="logo" />
+            <img class="nav__company" src="../assets/header/Hotel Miranda.svg" alt="logo" />
           </div>
         </div>
 
@@ -100,16 +100,19 @@
             </div>
             <div class="introduction__card">
                 <div class="introduction__card-img"></div>
-                <h5 class="introduction__card-pretitle text__paragraph text--gray">RESTAURANT</h5>
-                <h3 class="introduction__card-title text__card-title text--lightblack">Get Restaurant Facilities &amp Many Other More</h3>
-                <p class="introduction__card-paragraph text__card-paragraph text--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem por incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                <button class="introduction__card-button button button--golden button--book">TAKE A TOUR</button>
+                <div class="introduction__card-text">
+                  <h5 class="introduction__card-pretitle text__paragraph text--gray">RESTAURANT</h5>
+                  <h3 class="introduction__card-title text__card-title text--lightblack">Get Restaurant Facilities &amp Many Other More</h3>
+                  <p class="introduction__card-paragraph text__card-paragraph text--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem por incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                  <button class="introduction__card-button button button--golden button--book">TAKE A TOUR</button>                
+                </div>
             </div>
         </div>
     </section>
 
     <!--CORE FEATURES-->
     <section class="core-features core-features--dark">
+      <div class="core-features__container">
         <h5
           class="text__pretitle text--light text--center core-features__pretitle"
         >
@@ -253,7 +256,7 @@
         </div>
         
   
-        
+      </div>
       </section>
 
       <!--FUN FACTS-->
@@ -395,8 +398,9 @@
       <script src="../scripts/burger-menu.js"></script>
      
       <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-      <script src="../scripts/swiper.js"></script>
+      <script src="../scripts/swiper/aboutUsSlider.js"></script>
       <script src="../scripts/buttons.js"></script>
+      <script src="../scripts/about-us-card.js"></script>
        
 
   </body>

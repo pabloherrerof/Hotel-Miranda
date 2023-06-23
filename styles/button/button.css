@@ -53,4 +53,18 @@
 .button--send {
   width: 250px;
   height: 60px;
+}
+
+@media (min-width: 1000px) {
+  .button--room-card {
+    width: 60px;
+    height: 60px;
+  }
+  .button--book {
+    align-self: flex-start;
+  }
+  .button--room-card-rooms {
+    width: 32px;
+    height: 32px;
+  }
 }/*# sourceMappingURL=button.css.map */

@@ -12,4 +12,14 @@
 
 .handpicked-rooms__title {
   margin-bottom: 2.75rem;
+}
+
+@media (min-width: 1000px) {
+  .handpicked-rooms {
+    padding-top: 100px;
+    z-index: 0;
+  }
+  .handpicked-rooms__title {
+    margin-bottom: 1.5rem;
+  }
 }/*# sourceMappingURL=rooms.css.map */
