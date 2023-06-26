@@ -157,4 +157,10 @@
 .room-features__related {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+@media (min-width: 1000px) {
+  .room-detail__form {
+    width: 100%;
+  }
 }/*# sourceMappingURL=room-detail.css.map */

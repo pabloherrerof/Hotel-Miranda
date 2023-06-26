@@ -67,4 +67,7 @@
     width: 32px;
     height: 32px;
   }
+  .button--form-availability {
+    align-self: center;
+  }
 }/*# sourceMappingURL=button.css.map */

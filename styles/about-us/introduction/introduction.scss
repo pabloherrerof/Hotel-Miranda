@@ -61,6 +61,11 @@ letter-spacing: -1.05px;
     margin-bottom: 1rem;
 }
 
+.svg__plane {
+rect{
+    fill: hotpink;
+}}
+
 @media (min-width: 1000px) {
     .introduction__container{
         padding-top: 120px;
