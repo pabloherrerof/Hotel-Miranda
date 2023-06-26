@@ -104,16 +104,18 @@ position: relative;
   .about-us{
     position: unset;
     padding-top: 4rem;
-    height: 80vh;
+    margin-bottom: 4rem;
+    height: 100vh;
     display: flex;
     align-items: center;
+
      }
   .about-us__container{
     display: flex;
     position: relative;
     width: 100%;
     height: 100%;
-
+    margin-bottom: 4rem;
   }
   
   .about-us__cards{
